@@ -9,6 +9,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: $main-bg;
+    p {
+        line-height: 28px;
+        margin: 0;
+    }
 }
 
 code {

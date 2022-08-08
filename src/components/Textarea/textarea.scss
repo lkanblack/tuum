@@ -4,4 +4,8 @@ textarea {
     border: 1px solid $black;
     resize: none;
     outline: none;
+    margin-top: 8px;
+    label {
+        color: $black;
+    }
 }

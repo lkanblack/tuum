@@ -4,7 +4,7 @@ import Field from "./components/Field";
 import SelectField from "./components/SelectField";
 import FlagField from "./components/FlagField";
 import Textarea from "./components/Textarea/Textarea";
-import ContactRow from "./components/ContactRow";
+import ContactRow from "./components/ContactRow/ContactRow";
 import CheckboxRow from "./components/Checkbox/CheckboxRow";
 import PrivacyCheckBox from "./components/Checkbox/PrivacyCheckBox";
 import Btn from "./components/Btn/Btn";
@@ -53,7 +53,10 @@ function App() {
                   <SelectField value={industry} label="Industry" required />
                   <FlagField />
                   <SelectField value={geography} label="Oprating geography" />
-                  <Textarea label="What would you like to talk about?" />
+                  <Textarea
+                    name="about"
+                    label="What would you like to talk about?"
+                  />
                 </Grid>
                 <PrivacyCheckBox
                   text="By submitting this form I accept"
