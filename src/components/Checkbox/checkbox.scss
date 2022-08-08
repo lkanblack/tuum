@@ -1,0 +1,20 @@
+@import "../../styles/colors.scss";
+.check-box {
+    display: flex;
+    align-items: center;
+    input {
+        width: 25px;
+        height: 25px;
+        margin: 0;
+        margin-right: 1rem;
+    }
+    a {
+        margin-left: 5px;
+        text-decoration: none;
+        color: $grey;
+    }
+    &--privacy {
+        padding-top: 32px;
+        margin-bottom: 16px;
+    }
+}

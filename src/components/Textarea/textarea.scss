@@ -1,0 +1,7 @@
+@import "../../styles/colors.scss";
+textarea {
+    background-color: $main-bg;
+    border: 1px solid $black;
+    resize: none;
+    outline: none;
+}
