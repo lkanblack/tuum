@@ -7,7 +7,10 @@ function PrivacyCheckBox({ text, anch, link, name }) {
       <input name={name} type="checkbox" />
       <label htmlFor={name}>
         {text}
-        <a href={link}>{anch}</a>.
+        <a target="_blank" href={link}>
+          {anch}
+        </a>
+        .
       </label>
     </div>
   );
